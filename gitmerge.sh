@@ -15,7 +15,7 @@
 merge() {
   git checkout $2
   git merge --no-ff $1
-  git push origin s2
+  git push origin $2
   echo "Merged $1 to $2 successfully!"
   echo ""
   echo "..........................."
